@@ -1,0 +1,18 @@
+/* CSS for responsive layout */
+.product-grid {
+  display:scroll-position;
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  
+}
+/* CSS for responsive images */
+img {
+  width: 100%;
+  height: auto;
+}
+
+/* CSS for media queries */
+@media (max-width: 768px) {
+  .product-grid {
+    grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
+  }
+}
